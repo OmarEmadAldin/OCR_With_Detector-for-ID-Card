@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 31
+names: ['address', 'demo', 'dob', 'expiry', 'firstName', 'front_logo', 'invalid_address', 'invalid_barcode', 'invalid_demo', 'invalid_dob', 'invalid_expiry', 'invalid_firstName', 'invalid_issue', 'invalid_job', 'invalid_lastName', 'invalid_logo', 'invalid_nid', 'invalid_nid_back', 'invalid_photo', 'invalid_poe', 'invalid_serial', 'invalid_watermark_tut', 'issue', 'job', 'lastName', 'nid', 'nid_back', 'photo', 'poe', 'serial', 'watermark_tut']
+
+roboflow:
+  workspace: omartamer0
+  project: egyptian-id-detectr
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/omartamer0/egyptian-id-detectr/dataset/3

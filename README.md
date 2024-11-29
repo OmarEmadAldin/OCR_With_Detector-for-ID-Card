@@ -1,5 +1,8 @@
 # ID_Scanner_Data_Extractor
 Extract information from ID cards using Optical Character Recognition (OCR) and pre-defined Regions of Interest (ROIs). This project automates data extraction and fills it into structured files like PDFs or databases.
+<p align="center">
+  <img src="/Images/Screenshot from 2024-11-29 17-39-20.png" alt="Back Of ID" width="75%">
+</p>
 
 ## **Purpose**
 
@@ -80,6 +83,11 @@ check_device()
 ### **4. Process Images and Extract Annotations**
 Use the YOLO model to process the front and back images, returning bounding box annotations, we return it as a dictionary and the keywords are the labels and values are the (x_1 , x_2 , y_1 , y_2) of the bounding box of each class.
 
+<p align="center">
+  <img src="/Images/6.jpg" alt="Face Of ID" width="45%">
+  <img src="/Images/2.jpg" alt="Back Of ID" width="42.5%">
+</p>
+
 
 ## **5. Extract Information**
 
@@ -133,3 +141,8 @@ Use the YOLO model to process the front and back images, returning bounding box 
 ## **7. Fill the PDF Form**
 1. Use the extracted information to populate the fields in the PDF form.
 2. Add the processed photo to the PDF, placing it in the designated location.
+
+## **8. The Final Result**
+<p align="center">
+  <img src="/Images/Results.png" alt="Face Of ID" width="80%">
+</p>

@@ -66,7 +66,6 @@ form_fields = list(fillpdfs.get_form_fields("/home/omar_ben_emad/ID_Card_Data_Ex
 print(form_fields)
 
 #Arabic Fields
-
 # Fill data into the PDF
 data_dict = {
     form_fields[0]: first_name,   # First Name
